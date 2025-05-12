@@ -1,0 +1,16 @@
+name: ClassLibrary CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  call-build:
+    uses: SampleProjectDotNet/reusable-workflows/.github/workflows/dotnet-build-test.yml@main
+    secrets: inherit
+
+  call-publish:
+    needs: call-build
+    uses: SampleProjectDotNet/reusable-workflows/.github/workflows/dotnet-publish-nuget.yml@main
+    secrets: inherit
