@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>SampleProjectDotNet.class-library</id>
+    <version>1.2.0</version>
+    <authors>SampleProjectDotNet</authors>
+    <owners>SampleProjectDotNet</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/SampleProjectDotNet/class-library</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Biblioteca .NET Framework 4.7.2 para funcionalidades comuns de negócio dentro do ecossistema SampleProjectDotNet.</description>
+    <tags>net472 class-library SampleProjectDotNet</tags>
+  </metadata>
+
+  <files>
+    <file src="bin\Release\net472\class-library.dll" target="lib\net472" />
+  </files>
+</package>
