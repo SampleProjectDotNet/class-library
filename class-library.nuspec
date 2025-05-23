@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>SampleProjectDotNet.class-library</id>
-    <version>1.2.0</version>
+    <version>1.0.0</version>
     <authors>SampleProjectDotNet</authors>
     <owners>SampleProjectDotNet</owners>
     <license type="expression">MIT</license>
@@ -13,6 +13,6 @@
   </metadata>
 
   <files>
-    <file src="bin\Release\net472\class-library.dll" target="lib\net472" />
+    <file src="bin\Release\class-library.dll" target="lib\net472" />
   </files>
 </package>
